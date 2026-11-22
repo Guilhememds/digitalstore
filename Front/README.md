@@ -1,16 +1,46 @@
-# React + Vite
+# Digital Store — Front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Interface web responsiva de e-commerce desenvolvida em **React** com **PrimeReact** e **styled-components**.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **React** & **Vite**
+* **PrimeReact** (componentes de interface)
+* **styled-components** (estilização)
+* **React Router** (gerenciamento de rotas)
 
-## React Compiler
+## Estrutura de Pastas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```text
+Front/
+├── public/            # Imagens estáticas, banners e miniaturas de produtos
+├── src/
+│   ├── assets/        # Ícones e logotipos em SVG
+│   ├── components/    # Header, Footer, Gallery, ProductListing, FilterGroup, BuyBox, etc.
+│   ├── Layout/        # Estrutura base das páginas (PageLayout)
+│   ├── pages/         # HomePage, ProductsListingPage e ProdutoViewPage
+│   ├── Routes/        # Configuração de rotas da aplicação (Approutes)
+│   └── services/      # Integração e serviços da aplicação
+└── package.json
+```
 
-## Expanding the Oxlint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **Página Inicial (`HomePage`):** Carrossel de banners, coleções em destaque e vitrine de produtos em alta.
+* **Listagem de Produtos (`ProductsListingPage`):** Filtro por categorias e atributos (`FilterGroup`) com listagem dinâmica.
+* **Detalhes do Produto (`ProdutoViewPage`):** Galeria de imagens, seleção de opções (`ProductOptions`) e caixa de compra (`BuyBox`).
+
+## Instalação e Execução
+
+1. **Acesse a pasta do front-end e instale as dependências:**
+   ```bash
+   cd Front
+   npm install
+   ```
+
+2. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Acesse no navegador** o endereço exibido no terminal (geralmente `http://localhost:5173`).
