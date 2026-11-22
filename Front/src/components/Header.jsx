@@ -103,11 +103,11 @@ const Header = () => {
     },
     {
       label: "Categorias",
-      template: () => renderNavLink(),
+      template: () => renderNavLink("Categorias"),
     },
     {
       label: "Meus pedidos",
-      template: () => renderNavLink(),
+      template: () => renderNavLink("Meus pedidos"),
     },
   ];
 
