@@ -18,7 +18,7 @@ Front/
 │   ├── assets/        # Ícones e logotipos em SVG
 │   ├── components/    # Header, Footer, Gallery, ProductListing, FilterGroup, BuyBox, etc.
 │   ├── Layout/        # Estrutura base das páginas (PageLayout)
-│   ├── pages/         # HomePage, ProductsListingPage e ProdutoViewPage
+│   ├── pages/         # HomePage, ProductsListingPage e ProductViewPage
 │   ├── Routes/        # Configuração de rotas da aplicação (Approutes)
 │   └── services/      # Integração e serviços da aplicação
 └── package.json
@@ -28,7 +28,7 @@ Front/
 
 * **Página Inicial (`HomePage`):** Carrossel de banners, coleções em destaque e vitrine de produtos em alta.
 * **Listagem de Produtos (`ProductsListingPage`):** Filtro por categorias e atributos (`FilterGroup`) com listagem dinâmica.
-* **Detalhes do Produto (`ProdutoViewPage`):** Galeria de imagens, seleção de opções (`ProductOptions`) e caixa de compra (`BuyBox`).
+* **Detalhes do Produto (`ProductViewPage`):** Galeria de imagens, seleção de opções (`ProductOptions`) e caixa de compra (`BuyBox`).
 
 ## Instalação e Execução
 
